@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "jsx": "preserve",
+    "useDefineForClassFields": true,
+    "baseUrl": "./resources",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "resolveJsonModule": true,
+    "types": [
+      "vite/client"
+    ],
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "resources/src/**/*.ts",
+    "resources/src/**/*.d.ts",
+    "resources/src/**/*.tsx",
+    "resources/src/**/*.vue"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
